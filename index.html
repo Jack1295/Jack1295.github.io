@@ -1,8 +1,155 @@
+<!DOCTYPE html>
 <html>
-
+<head>
+  <title>My Cheat Sheet</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="styles.css" rel="stylesheet">
+</head>
 <body>
-  <h1>Jack1295!</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+
+  <h1 id="heading">CSS Selectors</h1>
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="tag">p</td>
+            <td>Paragraph</td>
+            <td>using the 'p' selector in css followed by curly
+              brackets will target all the Paragraph elements in a html file
+            </td>
+            <tr class="example">
+              <td>Example:</td>
+              <td>p{<br>font-family: serif;}</td>
+              <td>this will change all the paragraph elements to serif font</td>
+            </tr>
+        </tr>
+        <tr class="active-row">
+             <td class="tag">a</td>
+            <td>Anchor</td>
+            <td>using the 'a' selector in css followed by curly
+              brackets will target all the Anchor elements in a html file</td>
+        </tr>
+         <tr class="example">
+              <td>Example:</td>
+              <td>a{<br>color: green;}</td>
+              <td>this will change all the anchor elements text to the color green</td>
+            </tr>
+            <tr>
+             <td class="tag">h1 - h6</td>
+            <td>Heading</td>
+            <td>using the h1, h2, h3, h4, h5 or h6 selector in css followed by curly
+              brackets will target all the Heading elements of their respective sizes in a html file</td>
+        </tr>
+        <tr class="example">
+              <td>Example:</td>
+              <td>h1{<br>font-weight: bold;}</td>
+              <td>this will change the font weight of all the h1 elements to bold</td>
+            </tr>
+          <tr class="active-row">
+             <td class="tag"><strong>#</strong></td>
+            <td>by ID</td>
+            <td>when you need to target the id of an element instead of every element that shares the same tag you use a hashtag follwed by id name and curly brackets</td>
+        </tr>
+         <tr class="example">
+              <td>Example:</td>
+              <td>#example{<br>font-size: 18px;}</td>
+              <td>this will change the font size of any element with an id of 'example' to 18 pixels</td>
+            </tr>
+         <tr>
+             <td class="tag"><strong>.</strong></td>
+            <td>by Class</td>
+            <td>when you need to target the class of an element instead of every element that shares the same tag you use a period follwed by class name and curly brackets </td>
+        </tr>
+        <tr class="example">
+              <td>Example:</td>
+              <td>.example{<br>text-align: center;}</td>
+              <td>this will change the text alignment of any element with a class of 'example' to centered</td>
+            </tr>
+           <tr class="active-row">
+            <td class="tag">*</td>
+            <td>All</td>
+            <td>when using the * (asterisk) selector this targets all the elements on a page</td>
+        </tr>
+        <tr class="example">
+              <td>Example:</td>
+              <td>*{<br>border:solid black 1px;}</td>
+              <td>this will wrap EVERY element on the page with a 1 pixel, solid, black border</td>
+            </tr>
+         <tr>
+             <td class="tag">img</td>
+            <td>Images</td>
+            <td>using the img selector followed by curly brackets will target all the images in a html file</td>
+        </tr>
+        <tr class="example">
+              <td>Example:</td>
+              <td>img{<br>width: 250px;}</td>
+              <td>this will resize the width of every imamge on the page to 250 pixels</td>
+            </tr>
+        
+    </tbody>
+</table>
+ <style>
+body{
+  background-color: rgb(222, 222, 222);
+}
+.example{
+  font-family: monospace;
+  color: greenyellow;
+  background-color: gray!important;
+  letter-spacing: 2px;
+  
+}
+
+#heading{
+  text-align: center;
+  text-decoration: underline;
+  
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: auto auto;
+    
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.tag{
+  font-size: 18px;
+}
+
+</style>
 </body>
 </html>
