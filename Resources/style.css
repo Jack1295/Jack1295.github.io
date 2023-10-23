@@ -12,7 +12,7 @@ body{
 }
 
 .subheading img{
-    width: 100px;
+    width: 80px;
     margin-top: 10px;
 }
 
@@ -20,10 +20,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 50px;
     text-decoration: underline;
     font-style: italic;
-    font-size: 40px;
+    font-size: 30px;
     background-color: rgb(255, 181, 45);
     padding: 50px;
     margin-top: -20px;
@@ -32,8 +32,8 @@ header{
 
 
 section{
-    width: 80%;
-    height: 900px;
+    width: 70%;
+    height: 800px;
     display: flex;
     margin: 50px auto;
     flex-direction: column;
@@ -49,7 +49,6 @@ section{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    
 }
 
 .botrow{
@@ -57,14 +56,12 @@ section{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    
-    
 }
 
 
 .maps{
-    width: 300px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
     background-color: rgb(255, 181, 45)!important;
     border-radius: 8px;
 }
@@ -83,8 +80,8 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 100px;
-    font-size: 33px;
+    height: 70px;
+    font-size: 26px;
     margin-top: 10px;
     margin-bottom: -40px;
     background-color: rgba(94, 83, 243, 0.781) ;
@@ -98,42 +95,42 @@ a{
 
 #mirage{
    background: url(../Media/Images/Mirage.png) center no-repeat;
-   background-size: 250px;
+   background-size: 215px;
 }
 
 #overpass{
     background: url(../Media/Images/overpass.png) center no-repeat;
-    background-size: 250px;  
+    background-size: 215px;
 }
 
 #vertigo{
     background: url(../Media/Images/Vertigo.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 #ancient{
     background: url(../Media/Images/Ancient.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 #inferno{
     background: url(../Media/Images/Inferno.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 #nuke{
     background: url(../Media/Images/Nuke.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 #anubis{
     background: url(../Media/Images/Anubis.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 #dust{
     background: url(../Media/Images/dust.png) center no-repeat;
-    background-size: 250px;
+    background-size: 215px;
 }
 
 /*Maps Home End*/
@@ -146,50 +143,47 @@ a{
 }
 
 .bigmaps img{
-    width: 1000px;
+    width: 800px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapoverpass{
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapvertigo{
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapancient{
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapinferno{
-    width: 900px;
+    width: 800px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapnuke{
-    width: 1400px;
+    width: 1200px;
     max-width: 100%;
     border-radius: 10px;
 }
 
 #bigmapanubis{
-    width: 850px;
+    width: 750px;
     max-width: 100%;
 }
 
 #bigmapdust{
-    width: 850px;
+    width: 750px;
 }
 
-.dustLOGO img{
-    width: 200px;
-}
