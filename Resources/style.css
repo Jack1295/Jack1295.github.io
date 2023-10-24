@@ -51,8 +51,8 @@ section{
     border: rgb(255, 181, 45) solid 3px; 
     color: white;
     letter-spacing: 2px;
-    text-decoration: underline;
     padding-bottom: 20px;
+    text-decoration: underline;
 }
 
 .mainbody{
