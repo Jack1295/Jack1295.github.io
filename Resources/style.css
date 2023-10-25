@@ -27,6 +27,13 @@ header{
     background-color: rgb(255, 181, 45);
     padding: 50px;
     margin-top: -20px;
+    max-width: 100%;
+    margin-bottom: -39px;
+}
+
+header img{
+    max-width: 5%;
+    margin-top: 15px;
 }
 
 header a:hover{
@@ -39,7 +46,7 @@ a:hover{
 
 
 section{
-    width: 70%;
+    width: 65%;
     height: 800px;
     display: flex;
     margin: 50px auto;
@@ -53,6 +60,7 @@ section{
     letter-spacing: 2px;
     padding-bottom: 20px;
     text-decoration: underline;
+    flex-shrink: 2;
 }
 
 .mainbody{
@@ -91,10 +99,11 @@ section h2{
 
 
 .maps{
-    width: 250px;
+    width: 215px;
     height: 350px;
-    background-color: rgb(255, 181, 45)!important;
     border-radius: 8px;
+    background-position: center;
+    background-size: cover;
 }
 
 a{
@@ -102,9 +111,9 @@ a{
 }
 
 .mainpanel:hover{
-    border: rgb(93, 83, 243) solid 5px;
+    border: rgb(93, 83, 243) solid 4px;
     border-radius: 8px;
-    margin: -5px;
+    margin: -4px;
 }
 
 .subheading{
@@ -113,7 +122,7 @@ a{
     align-items: center;
     height: 70px;
     font-size: 26px;
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: -40px;
     background-color: rgba(94, 83, 243, 0.781) ;
     font-style: italic;
@@ -237,12 +246,13 @@ a{
     width: auto;
     padding: 16px;
     margin-top: -22px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    background-color: rgba(255, 255, 255, 0.5);
   }
   
   /* Position the "next button" to the right */
@@ -259,4 +269,65 @@ a{
 
   .backhome{
     color: white;
+  }
+
+  footer{
+    background-color: rgb(255, 181, 45);
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer p{
+    font-weight: 200;
+  }
+
+  footer h3{
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  @media only screen and (max-width: 1650px){
+   section{
+    width: 90%;
+   }
+
+  }
+
+  @media only screen and (max-width: 1281px){
+    .maps{
+        width: 200px;
+        height: 300px;
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+    header h1{
+        font-size: 50px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1020px){
+    .maps{
+        width: 150px;
+        height: 200px;
+    }
+    section{
+        width: 80%;
+        height: 600px;
+    }
+
+    @media only screen and (max-width: 884px){
+        section{
+            width: 95%;
+            height: 600px;
+        }
+        .maps{
+            width: 130px;
+            height: 150px;
+        }
+
+    }
+ 
   }
